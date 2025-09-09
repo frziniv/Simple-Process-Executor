@@ -12,6 +12,4 @@ def execute_process(process_name):
 if __name__ == "__main__":
     task = input("Enter the name of the task to execute: ")
     if task:
-        execute_process(task)
-    else:
-        print("No task entered. Exiting.")
+ 
